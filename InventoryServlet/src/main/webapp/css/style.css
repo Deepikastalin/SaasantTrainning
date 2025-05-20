@@ -1,0 +1,15 @@
+body {
+  font-family: Arial;
+  margin: 20px;
+}
+
+label, select {
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+#productDetails {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
