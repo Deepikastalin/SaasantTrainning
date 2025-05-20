@@ -1,0 +1,46 @@
+2025-05-21T00:29:24.844+05:30  INFO 8308 --- [billingSystespringboot] [RMI TCP Connection(96)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-05-21T00:29:25.010+05:30  INFO 8308 --- [billingSystespringboot] [RMI TCP Connection(96)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-21T00:29:25.386+05:30  INFO 8308 --- [billingSystespringboot] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-21T00:29:28.399+05:30  INFO 14296 --- [billingSystespringboot] [main] c.e.b.BillingSystespringbootApplication  : Starting BillingSystespringbootApplication using Java 17.0.12 with PID 14296 (C:\Users\deepi\Billing_System-1\billingSystespringboot\target\classes started by deepi in C:\Users\deepi\Billing_System-1\billingSystespringboot)
+2025-05-21T00:29:28.403+05:30 DEBUG 14296 --- [billingSystespringboot] [main] c.e.b.BillingSystespringbootApplication  : Running with Spring Boot v3.4.5, Spring v6.2.6
+2025-05-21T00:29:28.404+05:30  INFO 14296 --- [billingSystespringboot] [main] c.e.b.BillingSystespringbootApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-05-21T00:29:29.238+05:30  INFO 14296 --- [billingSystespringboot] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-21T00:29:29.318+05:30  INFO 14296 --- [billingSystespringboot] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 66 ms. Found 1 JPA repository interface.
+2025-05-21T00:29:29.808+05:30  INFO 14296 --- [billingSystespringboot] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-05-21T00:29:29.825+05:30  INFO 14296 --- [billingSystespringboot] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-21T00:29:29.826+05:30  INFO 14296 --- [billingSystespringboot] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-21T00:29:29.890+05:30  INFO 14296 --- [billingSystespringboot] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-21T00:29:29.891+05:30  INFO 14296 --- [billingSystespringboot] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1423 ms
+2025-05-21T00:29:30.075+05:30  INFO 14296 --- [billingSystespringboot] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-21T00:29:30.162+05:30  INFO 14296 --- [billingSystespringboot] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-05-21T00:29:30.217+05:30  INFO 14296 --- [billingSystespringboot] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-21T00:29:30.615+05:30  INFO 14296 --- [billingSystespringboot] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-21T00:29:30.666+05:30  INFO 14296 --- [billingSystespringboot] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-21T00:29:31.160+05:30  INFO 14296 --- [billingSystespringboot] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@27db45f
+2025-05-21T00:29:31.163+05:30  INFO 14296 --- [billingSystespringboot] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-21T00:29:31.287+05:30  INFO 14296 --- [billingSystespringboot] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.42
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-21T00:29:32.188+05:30  INFO 14296 --- [billingSystespringboot] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-21T00:29:32.194+05:30  INFO 14296 --- [billingSystespringboot] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-21T00:29:32.542+05:30  WARN 14296 --- [billingSystespringboot] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-21T00:29:32.569+05:30  INFO 14296 --- [billingSystespringboot] [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-05-21T00:29:32.977+05:30  INFO 14296 --- [billingSystespringboot] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-05-21T00:29:32.988+05:30  INFO 14296 --- [billingSystespringboot] [main] c.e.b.BillingSystespringbootApplication  : Started BillingSystespringbootApplication in 5.126 seconds (process running for 5.714)
+2025-05-21T00:30:05.220+05:30  INFO 14296 --- [billingSystespringboot] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-21T00:30:05.221+05:30  INFO 14296 --- [billingSystespringboot] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-21T00:30:05.222+05:30  INFO 14296 --- [billingSystespringboot] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-05-21T00:30:05.631+05:30  INFO 14296 --- [billingSystespringboot] [http-nio-8080-exec-2] c.e.b.controller.ProductController       : Fetching all products
+2025-05-21T00:30:16.040+05:30  INFO 14296 --- [billingSystespringboot] [http-nio-8080-exec-5] c.e.b.controller.ProductController       : Deleting product with ID: 12
+2025-05-21T00:30:16.451+05:30  INFO 14296 --- [billingSystespringboot] [http-nio-8080-exec-6] c.e.b.controller.ProductController       : Fetching all products
+2025-05-21T00:59:54.317+05:30  INFO 14296 --- [billingSystespringboot] [RMI TCP Connection(33)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-05-21T00:59:54.384+05:30  INFO 14296 --- [billingSystespringboot] [RMI TCP Connection(33)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-21T00:59:54.567+05:30  INFO 14296 --- [billingSystespringboot] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-21T00:59:54.601+05:30  INFO 14296 --- [billingSystespringboot] [RMI TCP Connection(33)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-21T00:59:54.632+05:30  INFO 14296 --- [billingSystespringboot] [RMI TCP Connection(33)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-05-21T00:59:54.645+05:30  INFO 14296 --- [billingSystespringboot] [RMI TCP Connection(33)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
